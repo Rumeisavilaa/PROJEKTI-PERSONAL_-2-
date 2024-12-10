@@ -1,0 +1,195 @@
+.container{
+	color:orange;
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+
+}
+
+.container h1 {
+	color:black;
+
+}
+
+.container h2 {
+	color:black;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header  {
+	background-color:white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px;
+
+}
+
+header nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+header nav ul li {
+	padding: 5px 10px;
+	margin: 25px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.footer{
+	background-color:darkgreen;
+	padding: 70px 0px;
+	margin-top: 200px;
+	border-top: 2px solid yellow;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0px 15px;
+}
+.footer-col h1{
+	font-size: 38px;
+    color: white;	
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h1::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col h2{
+	font-size: 34px;
+    color: white;	
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h2::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col h3{
+	color: white;
+	font-size: 20px
+}
+
+.footer-col i{
+	color: orange;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.footer-col h9{
+	color: white;
+}
+.footer-col h8{
+	color: white;
+}
+.footer-col h7{
+	color: white;
+}
+
+
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px 50px;
+	background-color: whitesmoke;
+}
+
+.header-container div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-container h1,.header-container h2 {
+	font-size: 16px;
+	margin: 0;
+}
+
+.header-container i {
+	color:orange;
+	padding:5px;
+}
+
+.header-container h3 {
+	font-size: 16px;
+	border:1px solid orange;
+	padding:10px;
+	border-radius: 6px;
+	background-color: orange;
+}
+.header-container h3 i {
+	color:black;
+}
+
+.header-container h1{
+padding: 0;
+}
+
+
+.restaurant {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	background-color: white;
+}
+.restaurant h5{
+	font-size: 30px;
+}
+
+.restaurant p{
+	font-size: 20px;
+}
+
+.food {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	background-color: white;
+}
+.food h5{
+	font-size: 30px;
+}
+
+.food p{
+	font-size: 30px;
+}

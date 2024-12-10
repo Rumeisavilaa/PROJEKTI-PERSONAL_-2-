@@ -1,0 +1,159 @@
+.container{
+	color:orange;
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+
+}
+
+.container h1 {
+	color:black;
+
+}
+
+.container h2 {
+	color:black;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header  {
+	background-color:white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px;
+
+}
+
+header nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+header nav ul li {
+	padding: 5px 10px;
+	margin: 25px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+.conference-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	background-color: white;
+}
+.conference-text h5{
+	font-size: 30px;
+}
+
+.conference-text p{
+	font-size: 20px;
+}
+
+.restaurant {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	background-color: white;
+}
+.restaurant h3{
+	font-size: 30px;
+}
+.restaurant p{
+	font-size: 20px;
+}
+
+
+
+
+.footer{
+	background-color:darkgreen;
+	padding: 70px 0px;
+	margin-top: 200px;
+	border-top: 2px solid yellow;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0px 15px;
+}
+.footer-col h1{
+	font-size: 38px;
+    color: white;	
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h1::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col h2{
+	font-size: 34px;
+    color: white;	
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h2::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col h3{
+	color: white;
+	font-size: 20px
+}
+
+.footer-col i{
+	color: orange;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.footer-col h9{
+	color: white;
+}
+.footer-col h8{
+	color: white;
+}
+.footer-col h7{
+	color: white;
+}
+
+.footer-col btn1{
+  background-color: green;
+}
